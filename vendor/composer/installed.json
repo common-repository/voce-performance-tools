@@ -1,0 +1,215 @@
+[
+    {
+        "name": "markjaquith/wp-tlc-transients",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/markjaquith/WP-TLC-Transients.git",
+            "reference": "bdbe0691db6adaf08af0dee6c70ebebe881633d8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/markjaquith/WP-TLC-Transients/zipball/bdbe0691db6adaf08af0dee6c70ebebe881633d8",
+            "reference": "bdbe0691db6adaf08af0dee6c70ebebe881633d8",
+            "shasum": ""
+        },
+        "time": "2013-05-07 18:12:10",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "class-tlc-transient.php",
+                "class-tlc-transient-update-server.php"
+            ],
+            "files": [
+                "functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Mark Jaquith",
+                "homepage": "http://markjaquith.com/"
+            }
+        ],
+        "description": "A WP transients interface with support for soft-expiration, background updating of the transients.",
+        "homepage": "https://github.com/markjaquith/WP-TLC-Transients",
+        "keywords": [
+            "cache",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "voceconnect/no-stampede-actions",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/voceconnect/no-stampede-actions.git",
+            "reference": "00e1dcc993f99e45c76b439faf9a61821f60f24b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/voceconnect/no-stampede-actions/zipball/00e1dcc993f99e45c76b439faf9a61821f60f24b",
+            "reference": "00e1dcc993f99e45c76b439faf9a61821f60f24b",
+            "shasum": ""
+        },
+        "time": "2013-12-05 14:47:16",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "no-stampede-actions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPLv2+"
+        ],
+        "authors": [
+            {
+                "name": "Michael Pretty",
+                "email": "mpretty@voceconnect.com"
+            },
+            {
+                "name": "Curtis Loisel",
+                "email": "curtis@voceconnect.com"
+            },
+            {
+                "name": "Kevin Langley",
+                "email": "kevin@voceconnect.com"
+            }
+        ],
+        "description": "A WordPress api to kick off globally singleton actions.  It will lock the action to prevent other requests from kicking off the same action."
+    },
+    {
+        "name": "voceconnect/voce-cached-nav",
+        "version": "1.3",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/voceconnect/voce-cached-nav.git",
+            "reference": "90787353af95530f3b2aed2e8095c2f86d54de60"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/voceconnect/voce-cached-nav/zipball/90787353af95530f3b2aed2e8095c2f86d54de60",
+            "reference": "90787353af95530f3b2aed2e8095c2f86d54de60",
+            "shasum": ""
+        },
+        "time": "2014-07-10 01:42:09",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "voce-cached-nav.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPLv2+"
+        ],
+        "authors": [
+            {
+                "name": "Mark Parolisi",
+                "email": "mark@voceconnect.com"
+            }
+        ],
+        "description": "Serve cached copies of WordPress navigation menus by replacing your template calls to `wp_nav_menu` with `voce_cached_nav_menu`."
+    },
+    {
+        "name": "voceconnect/voce-widget-cache",
+        "version": "1.5",
+        "version_normalized": "1.5.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/voceconnect/voce-widget-cache.git",
+            "reference": "d58522ecdc8bb64f2730d649cd41c6afa71797bb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/voceconnect/voce-widget-cache/zipball/d58522ecdc8bb64f2730d649cd41c6afa71797bb",
+            "reference": "d58522ecdc8bb64f2730d649cd41c6afa71797bb",
+            "shasum": ""
+        },
+        "time": "2014-10-07 15:19:52",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "voce-widget-cache.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPLv2+"
+        ],
+        "authors": [
+            {
+                "name": "Mark Parolisi",
+                "email": "mark@voceconnect.com"
+            },
+            {
+                "name": "John Ciacia",
+                "email": "john@voceconnect.com"
+            }
+        ],
+        "description": "Adds ability to easily cache widget output for better performance.",
+        "keywords": [
+            "cache",
+            "widget",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "voceconnect/wp-cache-bucket",
+        "version": "1.1.4",
+        "version_normalized": "1.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/voceconnect/wp-cache-bucket.git",
+            "reference": "d6642990e5880f0fcb228a52eb40763fe2f19248"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/voceconnect/wp-cache-bucket/zipball/d6642990e5880f0fcb228a52eb40763fe2f19248",
+            "reference": "d6642990e5880f0fcb228a52eb40763fe2f19248",
+            "shasum": ""
+        },
+        "time": "2014-12-18 20:46:09",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "wp-cache-bucket.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPLv2+"
+        ],
+        "authors": [
+            {
+                "name": "Kevin Langley Jr",
+                "email": "klangley@voceconnect.com"
+            },
+            {
+                "name": "Curtis Loisel",
+                "email": "curtis@voceconnect.com"
+            },
+            {
+                "name": "Michael Pretty",
+                "email": "mpretty@voceconnect.com"
+            }
+        ],
+        "description": "Allows cache items to be tied to a single validation key",
+        "keywords": [
+            "cache",
+            "wordpress"
+        ]
+    }
+]
